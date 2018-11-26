@@ -1,0 +1,35 @@
+#particles-js{
+  background-image: url("../img/Fondo azul.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white; /*Color de letra blanco*/
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: -2000;
+}
+.cardGame{
+  position: absolute;
+  top: 2%;
+  height: 98vh;
+}
+
+table{
+  font-family: 'Merienda', cursive;
+  /*font-family: 'Press Start 2P', cursive;*/
+}
+.algo{
+  color:#ffffff;
+  background:#99CC00;
+  padding:5px;
+  border-radius:15px;
+}
+
+.animacion {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
